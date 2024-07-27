@@ -4,10 +4,6 @@ const Profile = () => {
     const [user, setUser] = useState(" ");
     const userId = localStorage.getItem('userId');
 
- 
-
-    
-
     return (
         <div>
             <h2>Profile</h2>
